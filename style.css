@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(162, 214, 250);
+}
+.main{
+    text-align: center;
+    background-color: rgb(193, 180, 250);
+    padding: 80px 40px;
+    border: 3px solid black;
+    border-radius: 15px;
+    box-shadow: 5px 0px 18px 15px #fff;
+}
+.text{
+    position: relative;
+    margin-bottom: 200px;
+}
+.img{
+    position: absolute;
+    padding: 10px 10px;
+    top: 200px;
+    left: 680px;
+    text-align: center;
+}
+img{
+    width: 150px;
+    height: 150px;
+}
+.container{
+    background-color: rgb(50, 44, 44);
+    padding: 3rem 3rem;
+    border-radius: 50px;
+    border: 10px rgb(0, 153, 255) solid;
+    box-shadow: 5px black;
+}
+
+button{
+    text-align: center;
+    border: none;
+    outline: none;
+    padding: 1em;
+    margin-left: 10px;
+    border-radius: 3px;
+    background-color:  rgb(0, 153, 255);
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.progress-bar{
+    height: 10px;
+    width: 300px;
+    background-color: rgb(228, 228, 228);
+    margin-bottom: 30px;
+    margin-left: 60px;
+    border-radius: 5px;
+}
+
+.progress-bar .progress{
+    height: 100%;
+    width: 0;
+    background-color: rgb(0, 153, 255);
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgb(178, 224, 255);
+    transition: width 0.15s;
+}
+
+.speed-text{
+    font-size: 2em;
+    font-weight: bolder;
+    color: rgb(0, 153, 255);
+    margin-bottom: 30px;
+}
